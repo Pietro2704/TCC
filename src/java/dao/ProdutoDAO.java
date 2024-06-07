@@ -2,10 +2,11 @@
  *
  * @author Pietro Rosolia
  */
-package Model.Produto;
+package dao;
 
 import Controller.DatabaseConnection.DatabaseConnector;
 import Model.Carrinho.Carrinho;
+import Model.Produto.Produto;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

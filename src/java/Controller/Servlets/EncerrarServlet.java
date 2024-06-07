@@ -7,7 +7,7 @@ package Controller.Servlets;
 import Model.Carrinho.Carrinho;
 import Model.Cliente.Cliente;
 import Model.Pedido.Pedido;
-import Model.Pedido.PedidoDAO;
+import dao.PedidoDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.SimpleDateFormat;

@@ -4,7 +4,7 @@
  */
 package Controller.Servlets;
 
-import Model.Pedido.PedidoDAO;
+import dao.PedidoDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;

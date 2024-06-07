@@ -4,6 +4,7 @@
  */
 package Controller.Servlets;
 
+import dao.ClienteDAO;
 import java.io.IOException;
 import java.io.PrintWriter;
 

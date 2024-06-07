@@ -2,11 +2,12 @@
  *
  * @author Pietro Rosolia
  */
-package Model.Pedido;
+package dao;
 
 import Controller.DatabaseConnection.DatabaseConnector;
+import Model.Pedido.Pedido;
 import Model.Produto.Produto;
-import Model.Produto.ProdutoDAO;
+import dao.ProdutoDAO;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

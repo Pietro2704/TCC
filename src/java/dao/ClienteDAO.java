@@ -2,9 +2,10 @@
  *
  * @author Pietro Rosolia
  */
-package Model.Cliente;
+package dao;
 
 import Controller.DatabaseConnection.DatabaseConnector;
+import Model.Cliente.Cliente;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
